@@ -1,0 +1,12 @@
+# Secrets — the URL path is the credential
+prefix.txt
+secret.txt
+
+# Deployment-specific config (copy from *.example.json)
+config.json
+accounts.json
+
+# Runtime state
+sessions.json
+launches.log
+__pycache__/

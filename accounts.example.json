@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "id": "main",
+      "label": "main-account",
+      "email": "you@example.com",
+      "config_dir": "/home/you/.claude"
+    },
+    {
+      "id": "alt",
+      "label": "alt-account",
+      "email": "alt@example.com",
+      "config_dir": "/home/you/.claude-alt"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=rc-launcher — secret-URL Claude remote-control session launcher
+After=network.target
+
+[Service]
+Type=simple
+# EDIT: path to your clone
+WorkingDirectory=%h/claude-rc-launcher
+ExecStart=/usr/bin/python3 %h/claude-rc-launcher/server.py
+Restart=always
+RestartSec=2
+# tmux (holding claude --remote-control sessions) is a child of this service;
+# only kill the python server on restart, never the whole cgroup.
+KillMode=process
+
+[Install]
+WantedBy=default.target

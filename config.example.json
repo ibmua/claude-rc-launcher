@@ -1,0 +1,6 @@
+{
+  "port": 9137,
+  "workdir": "/home/you",
+  "claude_bin": null,
+  "tmux_bin": null
+}

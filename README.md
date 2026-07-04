@@ -8,19 +8,9 @@ Open one secret URL from your phone → tap **Launch session** → a Claude Code
 session spawns in tmux on your server and appears in your Claude mobile/desktop
 app, ready to drive from anywhere.
 
-```
-┌─────────────────────────────────────┐
-│ 🎛️ Remote-control sessions          │
-│                                     │
-│ you@example.com   ● logged in  max  │
-│  rc-you-20260704-055853  ⏱ 8m       │
-│                     [▶ Open]  [✕]   │
-│  [➕ Launch session]  re-auth · log out │
-│                                     │
-│ alt@example.com   ● logged out      │
-│  [🔑 Log in alt]                    │
-└─────────────────────────────────────┘
-```
+| Dashboard | In-page OAuth login | Wrong-account guard |
+|---|---|---|
+| ![Dashboard](docs/dashboard.png) | ![Login](docs/login.png) | ![Wrong account](docs/wrong-account.png) |
 
 ## Features
 
